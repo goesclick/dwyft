@@ -1,0 +1,23 @@
+{
+  "name": "gcli-dswyst",
+  "description": "dswyst (Damn Son Where'd You Say That?) is a command line assistant for text-to-speech sample generation.",
+  "version": "0.1.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Running tests for version $npm_package_version...\"",
+    "build_dev": "yarn version --prepatch --no-git-tag-version",
+    "build_release": "yarn licenses generate-disclaimer > LICENSES",
+    "init": "yarn install",
+    "maintenance": "yarn upgrade && yarn version --prepatch",
+    "postversion": "git push --tags"
+  },
+  "dependencies": {
+    "node": "^14.4.0",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.15"
+  }
+}
