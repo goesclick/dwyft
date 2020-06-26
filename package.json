@@ -5,6 +5,12 @@
   "main": "index.js",
   "type": "module",
   "license": "MIT",
+  "publisher": "Goes CLiCK",
+  "repository": "https://github.com/goesclick/gcli-dswyst",
+  "bugs": {
+    "url": "https://github.com/goesclick/gcli-dswyst/issues",
+    "email": "patrick@goes.click"
+  },
   "scripts": {
     "test": "echo \"Running tests for version $npm_package_version...\"",
     "build_dev": "yarn version --prepatch --no-git-tag-version",
@@ -19,5 +25,22 @@
   },
   "devDependencies": {
     "lodash": "^4.17.15"
-  }
+  },
+  "contributors": [
+    "Patrick Schreiber <patrick@goes.click> (https://patschreiber.com)"
+  ],
+  "maintainers": [
+    "Patrick Schreiber <patrick@goes.click> (https://patschreiber.com)"
+  ],
+  "keywords": [
+    "music",
+    "audio",
+    "tts",
+    "text-to-speech",
+    "say",
+    "speak",
+    "speech",
+    "gcli",
+    "goes click"
+  ]
 }
